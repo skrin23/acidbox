@@ -1,4 +1,4 @@
-**AcidBox** is a onefile open-source MIDI sequencer inspired by the Sting written in Python.  
+**AcidBox** is a onefile open-source MIDI sequencer inspired by the Sting2 written in Python.  
 It generates and edits acid-style patterns with **accent, glide, swing, density, velocity** and supports live editing during playback.  
 
 ---
