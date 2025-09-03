@@ -27,6 +27,12 @@ sudo apt install python3 python3-pyqt5 python3-rtmidi python3-mido \
                  python3-pyqt5.qtmultimedia python3-pyqt5.qtserialport \
                  alsa-utils aconnectgui
 ```
+###  Run the Sequencer
+
+```bash
+python3 acidbox.py
+```
+
 
 ## 🎛️ Usage
 
