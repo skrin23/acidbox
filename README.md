@@ -17,7 +17,7 @@ It generates and edits acid-style patterns with **accent, glide, swing, density,
 - Undo (patterns and chains)
 - Transpose and pattern shifting (left/right)
 - MIDI export to `.mid`
-- ALSA MIDI routing for connecting to external synths (e.g. Teenage Engineering OP-Z, VSTs)
+- ALSA MIDI routing for connecting to external synths
 
 ---
 
