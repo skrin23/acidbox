@@ -23,9 +23,7 @@ It generates and edits acid-style patterns with **accent, glide, swing, density,
 ## 🛠 Installation (Debian/Ubuntu)
 
 ```bash
-sudo apt install python3 python3-pyqt5 python3-rtmidi python3-mido \
-                 python3-pyqt5.qtmultimedia python3-pyqt5.qtserialport \
-                 alsa-utils aconnectgui
+sudo apt install python3 python3-pyqt5 python3-mido python3-rtmidi
 ```
 ###  Run the Sequencer
 
