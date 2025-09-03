@@ -32,7 +32,6 @@ sudo apt install python3 python3-pyqt5 python3-mido python3-rtmidi
 python3 acidbox.py
 ```
 
-
 ## 🎛️ Usage
 
 ### 🖱️ Grid interaction
@@ -76,12 +75,30 @@ python3 acidbox.py
 - JSON – for storing patterns and chains
 - MIDI – standard MIDI file for use in any DAW or hardware
 
+### 🎼 Supported Scales
+Below is a list of musical scales (modes) used for pattern generation in AcidBox. Each scale is defined as a set of intervals (in semitones) from the root note.
+
+| Scale Name       | Intervals (in semitones)   |
+|------------------|----------------------------|
+| `acid`           | 0, 2, 4, 7, 8, 9           |
+| `major`          | 0, 2, 4, 5, 7, 9, 11       |
+| `minor`          | 0, 2, 3, 5, 7, 8, 10       |
+| `harm minor`     | 0, 2, 3, 5, 7, 8, 11       |
+| `mel minor`      | 0, 2, 3, 5, 7, 9, 11       |
+| `dorian`         | 0, 2, 3, 5, 7, 9, 10       |
+| `phrygian`       | 0, 1, 3, 5, 7, 8, 10       |
+| `lydian`         | 0, 2, 4, 6, 7, 9, 11       |
+| `mixolydian`     | 0, 2, 4, 5, 7, 9, 10       |
+| `locrian`        | 0, 1, 3, 5, 6, 8, 10       |
+| `chromatic`      | 0–11 (all semitones)       |
+| `blues`          | 0, 3, 5, 6, 7, 10          |
+| `pentatonic M`   | 0, 2, 4, 7, 9              |
+| `pentatonic m`   | 0, 3, 5, 7, 10             |
+-------------------------------------------------
+
 ### 🧪 License
 - MIT License. Use freely, modify, contribute, enjoy.
 
 ### 👤 Author
 - Inspired, directed, edited and tested by SkrIN, written by ChatGPT.
-
-
-
 ---    
