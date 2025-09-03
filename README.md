@@ -4,6 +4,7 @@ It generates and edits acid-style patterns with **accent, glide, swing, density,
 ---
 
 ## ✨ Features
+- All in one file
 - 16-step sequencer with graphical grid editor
 - Random pattern generation with options:
   - Accent / Glide
