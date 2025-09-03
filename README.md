@@ -79,7 +79,7 @@ python3 acidbox.py
 - MIT License. Use freely, modify, contribute, enjoy.
 
 ### 👤 Author
-- Made by SkrIN
+- Inspired, directed, edited and tested by SkrIN, written by ChatGPT.
 
 
 
