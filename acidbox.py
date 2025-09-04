@@ -795,7 +795,10 @@ class AcidBoxGUI(QWidget):
         if note is not None:
             vel = velocity
             self.outport.send(mido.Message('note_on', note=note, velocity=vel, channel=self.midi_chan))
-        self.grid.set_active_step(self.play_step_idx)
+        if pat_idx == self.active_idx:
+            self.grid.set_active_step(self.play_step_idx)
+        else:
+            self.grid.set_active_step(-1)
         if note is not None and not step.slide:
             QTimer.singleShot(int(step_time * 0.7), lambda n=note: self.safe_note_off(n))
         self.play_step_idx += 1
